@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.example.androiduitesting;
 import static androidx.test.espresso.Espresso.onData;
 import static androidx.test.espresso.Espresso.onView;
@@ -16,6 +15,9 @@ import androidx.test.espresso.action.ViewActions;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
+
+import com.example.androiduitesting.MainActivity;
+
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -109,12 +111,3 @@ public class MainActivityTest {
         onView(withText("Back")).check(doesNotExist());
     }
 }
-=======
-package com.example.androiduitesting;
-
-@RunWith(AndroidJUnit4.class)
-@LargeTest
-public class MainActivityTest {
-    
-}
->>>>>>> d0359eacbc20a6b422920a855306a546de877e39
